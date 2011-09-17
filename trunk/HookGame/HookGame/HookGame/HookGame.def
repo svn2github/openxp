@@ -1,0 +1,9 @@
+; HookGame.def : 声明 DLL 的模块参数。
+
+LIBRARY      "HookGame"
+
+SETCTIONS
+  shareddata READ WRITE SHARED
+
+EXPORTS
+    ; 此处可以是显式导出

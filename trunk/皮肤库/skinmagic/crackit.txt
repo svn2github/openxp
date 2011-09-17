@@ -1,0 +1,27 @@
+made by masterdog
+
+1. SkinMagic.lib用UltraEdit找"SkinMagicTrial.dll"关键字，第二次找到时换成"SkinMagic.dll",剩余部分补0x00
+
+2. SkinMagic.dll
+(1) 将6137h处的7541改成EB4F
+(2) 将6192h处的FF15改成EB04 
+
+
+3. SkinMagicLibMD6.lib
+(1) 将16E0B1h处的7541改成EB4F
+(2) 将16E10Ch处的FF15改成EB04
+
+
+4. SkinMagicLibMT6.lib
+(1) 将18D997h处的7541改成EB4F
+(2) 将18D9F2h处的FF15改成EB04
+
+
+5. SkinMagicLibMD7.lib (Debug版本有问题)
+(1) 将455111h处的752A改成EB38
+(2) 将455155h处的FF15改成EB04
+
+
+6. SkinMagicLibMT7.lib
+(1) 将339DD7h处的752A改成EB38
+(2) 将339E1Bh处的FF15改成EB04

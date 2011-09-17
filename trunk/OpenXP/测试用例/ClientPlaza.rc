@@ -1,0 +1,198 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ClientPlaza.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ClientPlaza.ico"
+IDI_DEFAULT             ICON                    "res\\deafult_menu.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CLIENTPLAZA_DIALOG DIALOGEX 0, 0, 945, 254
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ClientPlaza"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "默认静态",IDC_STATIC_EMAIL,125,107,54,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,129,404,1
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,136,226,111
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,240,7,1,240
+    LTEXT           "不能断点续传测试",IDC_STATIC,298,10,65,8
+    LTEXT           "下载地址：",IDC_STATIC,256,29,41,8
+    LTEXT           "保存文件名：",IDC_STATIC,248,51,49,8
+    EDITTEXT        IDC_EDIT_URL_UN,297,26,112,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NAME_UN,297,48,112,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_PROGRESS_D_UN,"msctls_progress32",WS_BORDER,256,81,149,14
+    LTEXT           "进度百分比：",IDC_STATIC_SHOW_UN,338,113,49,8
+    LTEXT           "能断点续传测试",IDC_STATIC,299,136,57,8
+    LTEXT           "下载地址：",IDC_STATIC,257,155,41,8
+    LTEXT           "保存文件名：",IDC_STATIC,249,177,49,8
+    EDITTEXT        IDC_EDIT_URL,299,152,112,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NAME,299,174,112,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_PROGRESS_D,"msctls_progress32",WS_BORDER,257,204,149,14
+    LTEXT           "进度百分比：0%",IDC_STATIC_SHOW,348,232,68,8
+    PUSHBUTTON      "开始下载",IDC_BUTTON_D_UN,265,105,50,14
+    PUSHBUTTON      "开始下载",IDC_BUTTON_D,269,226,50,14
+    LTEXT           "网页浏览",IDC_STATIC_HTML,742,7,196,240,WS_BORDER
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,413,7,1,240
+    CONTROL         "",IDC_TREE1,"SysTreeView32",WS_BORDER | WS_HSCROLL | WS_TABSTOP,577,7,165,240
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "黄新平"
+            VALUE "FileDescription", "客户端测试"
+            VALUE "FileVersion", "1.0.0.3"
+            VALUE "InternalName", "ClientPlaza.exe"
+            VALUE "LegalCopyright", "CopyRight 2010"
+            VALUE "OriginalFilename", "ClientPlaza.exe"
+            VALUE "ProductVersion", "1.0.0.2"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_CLIENTPLAZA_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 938
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 247
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 ClientPlaza(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ClientPlaza.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
